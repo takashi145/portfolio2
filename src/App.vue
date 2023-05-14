@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue';
 import products from './data/products.json';
 </script>
 <template>
-  <div class="min-h-screen bg-indigo-100 dark:bg-slate-800">
+  <div class="min-h-screen bg-gray-100 dark:bg-slate-800">
     <div class="max-w-7xl mx-auto">
       <!-- Dark Mode Toggle component -->
       <div class="text-end p-3">
