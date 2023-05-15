@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Java",
+    "experience": "3年"
+  },
+  {
+    "name": "PHP",
+    "experience": "3年"
+  },
+  {
+    "name": "JavaScript",
+    "experience": "3年"
+  },
+  {
+    "name": "Python",
+    "experience": "1年"
+  },
+  {
+    "name": "Laravel",
+    "experience": "2年"
+  },
+  {
+    "name": "Spring Boot",
+    "experience": "1年"
+  },
+  {
+    "name": "Ruby on Rails",
+    "experience": "1年"
+  },
+  {
+    "name": "Django",
+    "experience": "1年"
+  },
+  {
+    "name": "FastAPI",
+    "experience": "1年"
+  },
+  {
+    "name": "Vue.js",
+    "experience": "2年"
+  },
+  {
+    "name": "React",
+    "experience": "1年"
+  },
+  {
+    "name": "Nuxt.js",
+    "experience": "1年"
+  },
+  {
+    "name": "Nest.js",
+    "experience": "1年"
+  },
+  {
+    "name": "MySQL",
+    "experience": "3年"
+  },
+  {
+    "name": "Firebase",
+    "experience": "1年"
+  },
+  {
+    "name": "Git",
+    "experience": "2年"
+  },
+  {
+    "name": "Docker",
+    "experience": "1年"
+  }
+]

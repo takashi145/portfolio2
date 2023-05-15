@@ -1,58 +1,65 @@
 [
   {
     "id": 1,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/sharer.PNG",
     "name": "Sharer",
     "description": "技術記事の共有アプリ",
     "url": "https://sharer.herokuapp.com/"
   },
   {
     "id": 2,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/course-planner.PNG",
     "name": "CoursePlanner",
     "description": "履修計画アプリ",
     "url": "https://course-planner-app.herokuapp.com/"
   },
   {
     "id": 3,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/glossary-app.PNG",
     "name": "GlossaryApp",
     "description": "用語管理アプリ",
     "url": "https://glossaryapp.onrender.com/"
   },
   {
     "id": 4,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/app-name-generator.PNG",
     "name": "AppNameGenerator",
     "description": "アプリ名提案アプリ",
     "url": "https://app-name-generator.vercel.app"
   },
   {
     "id": 5,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/noutore.PNG",
     "name": "Brain Training Typing Game",
     "description": "脳トレタイピングゲーム",
     "url": "https://brain-training-typing-game.vercel.app/"
   },
   {
     "id": 6,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/webgl.PNG",
     "name": "Space Universe 3d",
     "description": "three.jsで宇宙空間",
     "url": "https://takashi145.github.io/webGL-sample/"
   },
   {
     "id": 7,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/chatgpt-laravel.PNG",
     "name": "ChatGPT Laravel Sample",
     "description": "laravelでchatgpt apiを使ってみた",
     "url": "https://github.com/takashi145/chat-gpt-api-sample"
   },
   {
     "id": 8,
-    "image": "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "image": "/src/assets/images/todo.PNG",
     "name": "Simple Todo App",
     "description": "シンプルなtodoリスト",
     "url": "https://github.com/takashi145/simple-todo-spa"
+  },
+  {
+    "id": 8,
+    "image": "/src/assets/images/schedule.PNG",
+    "name": "Simple Schedule App",
+    "description": "シンプルな予定管理アプリ",
+    "url": "https://github.com/takashi145/simple-schedule-app"
   }
 ]
