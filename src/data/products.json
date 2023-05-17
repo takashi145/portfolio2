@@ -37,7 +37,7 @@
   {
     "id": 6,
     "image": "images/webgl.PNG",
-    "name": "Space Universe 3d",
+    "name": "Space 3d",
     "description": "three.jsで宇宙空間",
     "url": "https://takashi145.github.io/webGL-sample/"
   },
