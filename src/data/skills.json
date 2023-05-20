@@ -1,5 +1,13 @@
 [
   {
+    "name": "HTML",
+    "experience": "3年"
+  },
+  {
+    "name": "CSS",
+    "experience": "3年"
+  },
+  {
     "name": "Java",
     "experience": "3年"
   },
@@ -49,6 +57,14 @@
   },
   {
     "name": "Nest.js",
+    "experience": "1年"
+  },
+  {
+    "name": "Bootstrap",
+    "experience": "1年"
+  },
+  {
+    "name": "Tailwind CSS",
     "experience": "1年"
   },
   {

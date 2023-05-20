@@ -4,7 +4,7 @@ import ProductCard from './components/ProductCard.vue';
 import ScrollToTopButton from './components/ScrollToTopButton.vue';
 import Footer from './components/Footer.vue';
 import products from './data/products.json';
-import skills from './data/skills.json';
+// import skills from './data/skills.json';
 </script>
 <template>
   <div class="min-h-screen bg-gray-100 dark:bg-slate-800">
@@ -15,7 +15,7 @@ import skills from './data/skills.json';
       </div>
 
       <!-- Portfolio Header -->
-      <div class="mx-auto max-w-screen-xl text-center p mb-8">
+      <div class="mx-auto max-w-screen-xl text-center p mb-4">
         <h1 class="mb-3 text-4xl md:text-5xl font-extrabold tracking-tight leading-none text-gray-900 lg:text-6xl dark:text-white">Welcome to my portfolio</h1>
         <p class="mb-3 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
           CIT NS4
@@ -45,13 +45,13 @@ import skills from './data/skills.json';
         </div> -->
 
         <!-- Product List -->
-        <div class="min-h-screen px-12 sm:px-8 pb-24">
-          <h2 class="flex items-center justify-center text-2xl font-semibold text-gray-800 mb-4 dark:text-white">
+        <div class="min-h-screen px-12 sm:px-8 pb-16">
+          <!-- <h2 class="flex items-center justify-center text-2xl font-semibold text-gray-800 mb-4 dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
             </svg>
             制作物
-          </h2>
+          </h2> -->
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
             <ProductCard 
               v-for="product in products" 
