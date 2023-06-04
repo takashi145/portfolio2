@@ -3,63 +3,60 @@
     "id": 1,
     "image": "images/sharer.PNG",
     "name": "Sharer",
-    "description": "技術記事の共有アプリ",
-    "url": "https://sharer.herokuapp.com/"
+    "description": "気になった技術記事を共有するアプリです。",
+    "url": "https://sharer.herokuapp.com/",
+    "skills": [
+      "laravel", "vue.js", "tailwindcss"
+    ]
   },
   {
     "id": 2,
     "image": "images/course-planner.PNG",
     "name": "CoursePlanner",
-    "description": "履修計画アプリ",
-    "url": "https://course-planner-app.herokuapp.com/"
+    "description": "履修計画を立てることができるアプリです。",
+    "url": "https://course-planner-app.herokuapp.com/",
+    "skills": [
+      "laravel", "vue.js", "tailwindcss"
+    ]
   },
   {
     "id": 3,
     "image": "images/glossary-app.PNG",
     "name": "GlossaryApp",
-    "description": "用語管理アプリ",
-    "url": "https://glossaryapp.onrender.com/"
+    "description": "学校などで学んだ用語を管理アプリです。",
+    "url": "https://glossaryapp.onrender.com/",
+    "skills": [
+      "ruby on rails", "tailwindcss"
+    ]
   },
   {
     "id": 4,
     "image": "images/app-name-generator.PNG",
     "name": "AppNameGenerator",
-    "description": "アプリ名提案アプリ",
-    "url": "https://app-name-generator.vercel.app"
+    "description": "ChatGPTのAPIを使用して、\nアプリの説明からアプリ名を提案してくれるアプリです。",
+    "url": "https://app-name-generator.vercel.app",
+    "skills": [
+      "nuxtjs", "tailwindcss"
+    ]
   },
   {
     "id": 5,
     "image": "images/noutore.PNG",
-    "name": "Brain Training Typing Game",
-    "description": "脳トレタイピングゲーム",
-    "url": "https://brain-training-typing-game.vercel.app/"
+    "name": "脳トレタイピング",
+    "description": "よく見る脳トレをタイピングゲーム風にしました。\n脳トレとしての効果があるかは分かりません。",
+    "url": "https://brain-training-typing-game.vercel.app/",
+    "skills": [
+      "vue.js", "tailwindcss"
+    ]
   },
   {
     "id": 6,
     "image": "images/webgl.PNG",
-    "name": "Space 3d",
-    "description": "three.jsで宇宙空間",
-    "url": "https://takashi145.github.io/webGL-sample/"
-  },
-  {
-    "id": 7,
-    "image": "images/chatgpt-laravel.PNG",
-    "name": "ChatGPT Laravel Sample",
-    "description": "laravelでchatgpt apiを使ってみた",
-    "url": "https://github.com/takashi145/chat-gpt-api-sample"
-  },
-  {
-    "id": 8,
-    "image": "images/todo.PNG",
-    "name": "Simple Todo App",
-    "description": "シンプルなtodoリスト",
-    "url": "https://github.com/takashi145/simple-todo-spa"
-  },
-  {
-    "id": 8,
-    "image": "images/schedule.PNG",
-    "name": "Simple Schedule App",
-    "description": "シンプルな予定管理アプリ",
-    "url": "https://github.com/takashi145/simple-schedule-app"
+    "name": "宇宙空間",
+    "description": "three.jsで宇宙空間を作成しました。",
+    "url": "https://takashi145.github.io/webGL-sample/",
+    "skills": [
+      "javascript", "three.js"
+    ]
   }
 ]

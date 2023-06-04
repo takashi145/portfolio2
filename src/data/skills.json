@@ -25,19 +25,19 @@
   },
   {
     "name": "Laravel",
-    "experience": "2年"
+    "experience": ""
   },
   {
     "name": "Spring Boot",
-    "experience": "1年"
+    "experience": "軽く触れた程度"
   },
   {
     "name": "Ruby on Rails",
-    "experience": "1年"
+    "experience": "軽く触れた程度"
   },
   {
     "name": "Django",
-    "experience": "1年"
+    "experience": "軽く触れた程度"
   },
   {
     "name": "FastAPI",
@@ -70,14 +70,6 @@
   {
     "name": "MySQL",
     "experience": "3年"
-  },
-  {
-    "name": "Firebase",
-    "experience": "1年"
-  },
-  {
-    "name": "Git",
-    "experience": "2年"
   },
   {
     "name": "Docker",
