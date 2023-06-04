@@ -2,7 +2,7 @@
 import ToggleDarkMode from './components/ToggleDarkMode.vue';
 import ProductCard from './components/ProductCard.vue';
 import ScrollToTopButton from './components/ScrollToTopButton.vue';
-import Footer from './components/Footer.vue';
+//import Footer from './components/Footer.vue';
 import SkillCard from './components/SkillCard.vue';
 import products from './data/products.json';
 import skills from './data/skills.json';
@@ -41,8 +41,9 @@ onBeforeUnmount(() => {
 </script>
 <template>
   <div class="min-h-screen bg-gray-100 dark:bg-slate-800 selection:text-blue-500 dark:selection:text-green-400">
+    <SplashScreen />
+
     <div class="max-w-7xl mx-auto pb-8">
-      
       <!-- Dark Mode Toggle component -->
       <div class="text-end px-3 pt-3">
         <ToggleDarkMode />

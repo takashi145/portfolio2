@@ -16,9 +16,9 @@ defineProps({
 
 </script>
 <template>
-  <div>
+  <div class="sm:mx-10 md:mx-0">
     <h3 class="text-gray-800 dark:text-white font-semibold mb-1">{{ product.name }}</h3>
-    <div class="relative sm:mx-10 md:mx-0 transform transition-all duration-500 hover:scale-105">
+    <div class="relative transform transition-all duration-500 hover:scale-105">
       <img 
         :src="product.image ? product.image : '//placehold.jp/a9a9a9/ffffff/300x200.png?text=No Image' " 
         class="block h-auto md:h-64 lg:h-72 w-full shadow-lg max-w-full bg-gray-300 rounded-lg transition hover:scale-110 delay-150 dark:bg-slate-700 border border-gray-300 dark:border-gray-600" 

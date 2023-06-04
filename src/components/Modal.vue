@@ -1,15 +1,13 @@
-<script setup>
-import { computed, onMounted, onUnmounted, watch } from 'vue';
+<script setup lang="ts">
+import { onMounted, onUnmounted, watch } from 'vue';
 
-const props = defineProps({
-    show: {
-        type: Boolean,
-        default: false,
-    },
-    maxWidth: {
-        type: String,
-        default: 'md',
-    },
+interface ModalProps {
+    show?: boolean;
+    maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+}
+
+const props = withDefaults(defineProps<ModalProps>(), {
+    show: false,
 });
 
 const emit = defineEmits(['close']);
@@ -20,7 +18,7 @@ watch(
         if (props.show) {
             document.body.style.overflow = 'hidden';
         } else {
-            document.body.style.overflow = null;
+            document.body.style.overflow = '';
         }
     }
 );
@@ -29,7 +27,7 @@ const close = () => {
   emit('close');
 };
 
-const closeOnEscape = (e) => {
+const closeOnEscape = (e: KeyboardEvent) => {
     if (e.key === 'Escape' && props.show) {
         close();
     }
@@ -39,24 +37,14 @@ onMounted(() => document.addEventListener('keydown', closeOnEscape));
 
 onUnmounted(() => {
     document.removeEventListener('keydown', closeOnEscape);
-    document.body.style.overflow = null;
-});
-
-const maxWidthClass = computed(() => {
-    return {
-        sm: 'sm:max-w-sm',
-        md: 'sm:max-w-md',
-        lg: 'sm:max-w-lg',
-        xl: 'sm:max-w-xl',
-        '2xl': 'sm:max-w-2xl',
-    }[props.maxWidth];
+    document.body.style.overflow = '';
 });
 </script>
 
 <template>
     <teleport to="body">
         <transition leave-active-class="duration-200">
-            <div v-show="show" @click="emit('close_modal')" class="fixed inset-0 top-64 overflow-y-auto px-4 py-6 sm:px-0 z-50" scroll-region>
+            <div v-show="show" @click="emit('close')" class="fixed inset-0 top-64 overflow-y-auto px-4 py-6 sm:px-0 z-50" scroll-region>
                 <transition
                     enter-active-class="ease-out duration-300"
                     enter-from-class="opacity-0"
@@ -80,8 +68,7 @@ const maxWidthClass = computed(() => {
                 >
                     <div
                         v-show="show"
-                        class="mb-6 bg-white rounded-lg overflow-auto shadow-xl transform transition-all sm:w-full sm:mx-auto max-h-full h-modal dark:bg-slate-800 dark:text-white"
-                        :class="maxWidthClass"
+                        class="mb-6 bg-white rounded-lg overflow-auto shadow-xl transform transition-all sm:w-full sm:mx-auto max-h-full h-modal dark:bg-slate-800 dark:text-white max-w-md"
                     >
                         <slot v-if="show" />
                     </div>
