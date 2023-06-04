@@ -3,7 +3,6 @@ import { onMounted, onUnmounted, watch } from 'vue';
 
 interface ModalProps {
     show?: boolean;
-    maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl';
 }
 
 const props = withDefaults(defineProps<ModalProps>(), {
