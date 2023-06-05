@@ -1,78 +1,92 @@
 [
   {
     "name": "HTML",
-    "experience": "3年"
+    "experience": "約3年",
+    "description": "Web開発で使用しています。"
   },
   {
     "name": "CSS",
-    "experience": "3年"
+    "experience": "約3年",
+    "description": "Web開発で使用しています。最近ではフレームワークのTailwind cssを使うことが多いです。"
   },
   {
     "name": "Java",
-    "experience": "3年"
+    "experience": "約3年",
+    "description": "高校、大学の授業で基礎構文やオブジェクト指向について学習しました。"
   },
   {
     "name": "PHP",
-    "experience": "3年"
+    "experience": "約3年",
+    "description": "Web開発で使用しています。\n 簡単な掲示板アプリやTODOリストの作成しました。"
   },
   {
     "name": "JavaScript",
-    "experience": "3年"
+    "experience": "約3年",
+    "description": "Web開発で使用しています。タイピングゲームやthree.jsというライブラリを使用した3Dコンテンツを作成しました。"
   },
   {
     "name": "Python",
-    "experience": "1年"
+    "experience": "約1年",
+    "description": "Paizaのスキルチェック問題などを解く際に使用しています。\n 大学のアルゴリズムの授業でも軽く使いました。"
   },
   {
     "name": "Laravel",
-    "experience": ""
+    "experience": "約2年",
+    "description": "Web開発で使用しています。\n 技術記事共有アプリや履修計画アプリなどを作成しました。"
   },
   {
     "name": "Spring Boot",
-    "experience": "軽く触れた程度"
+    "experience": "軽く触れた程度",
+    "description": "Udemyの講座で学習した程度です。簡単なTODOアプリを作成しました。"
   },
   {
     "name": "Ruby on Rails",
-    "experience": "軽く触れた程度"
-  },
-  {
-    "name": "Django",
-    "experience": "軽く触れた程度"
+    "experience": "軽く触れた程度",
+    "description": "Rubyの学習経験はほとんどありませんでしたが、使ってみたかったため、調べながら用語管理アプリを作成しました。"
   },
   {
     "name": "FastAPI",
-    "experience": "1年"
+    "experience": "軽く触れた程度",
+    "description": "Udemyなどで学習し、JWTによる認証やCRUD機能を持ったAPIを作成しました。\n現在、アンケートの投稿や回答ができるAPIを開発中です。"
   },
   {
     "name": "Vue.js",
-    "experience": "2年"
+    "experience": "約2年",
+    "description": "Web開発で使用しています。\n laravelと一緒に使うことが多いです。脳トレ風タイピングゲームを作成しました。このポートフォリオもvue.jsで作成しています。"
   },
   {
     "name": "React",
-    "experience": "1年"
+    "experience": "約1年",
+    "description": "Web開発で使用しています。\n バックエンドをlaravel、フロントエンドはreactとしてシンプルなメモアプリを作成しました。"
   },
   {
     "name": "Nuxt.js",
-    "experience": "1年"
+    "experience": "約1年",
+    "description": "ChatGPTのAPIを使ってみたいと思い、アプリの説明からアプリ名を5つ考えてくれるアプリを開発しました。"
+  },
+  {
+    "name": "Next.js",
+    "experience": "軽く触れた程度",
+    "description": "ChatGPTのAPIを使ってみたいと思い、与えられたいくつかのキーワードからアプリのアイデアを5つ考えてくれるアプリを開発しました。現在、Next.jsを使用して就活での選考状況を管理できるアプリを開発中です。"
   },
   {
     "name": "Nest.js",
-    "experience": "1年"
+    "experience": "軽く触れた程度",
+    "description": "ロゴがかっこよかったので気になって触り始めました。JWTによる認証と簡単なCRUD機能を持ったAPIを作成しました。"
   },
   {
     "name": "Bootstrap",
-    "experience": "1年"
+    "experience": "約1年",
+    "description": "Web開発で使用しています。\n ウェブ開発を始めたばかりの頃はよく使用していましたが、最近はほとんど使用していません。"
   },
   {
     "name": "Tailwind CSS",
-    "experience": "1年"
+    "experience": "約2年",
+    "description": "Web開発で使用しています。\n 最近はほとんどのwebアプリでTailwind cssを使用しています。"
   },
   {
     "name": "MySQL",
-    "experience": "3年"
-  },
-  {
-    "name": "Docker",
-    "experience": "1年"
+    "experience": "約3年",
+    "description": "高校、大学でデータベースやウェブアプリ開発の授業で使用しました。趣味での開発でもほとんどmysqlを使用しています。"
   }
 ]

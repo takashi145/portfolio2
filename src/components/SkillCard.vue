@@ -5,6 +5,7 @@ import Modal from './Modal.vue';
 interface Skill {
   name: string;
   experience: string;
+  description: string;
 }
 
 const show = ref(false);
@@ -38,10 +39,9 @@ defineProps({
         <h2 class="mb-4 uppercase tracking-wide text-xl text-indigo-500 font-semibold">
           Skill: {{ skill.name }}
         </h2>
-        <a href="#" class="block mt-1 text-md leading-tight font-medium text-black hover:underline dark:text-gray-200">
-          経験: {{ skill.experience }}
-        </a>
-        <!-- <p class="mt-2 dark:text-gray-300">{{ skill.description }}</p> -->
+        <p class="block mt-1 text-md leading-tight font-medium text-black dark:text-gray-200">
+          {{ skill.description }}
+        </p>
       </div>
     </div>
   </Modal>
