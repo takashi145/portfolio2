@@ -17,7 +17,7 @@ defineProps({
 </script>
 <template>
   <div class="sm:mx-10 md:mx-0">
-    <h3 class="text-gray-800 dark:text-white font-semibold mb-1">{{ product.name }}</h3>
+    <h3 class="text-lg text-gray-800 dark:text-white font-semibold mb-2">{{ product.name }}</h3>
     <div class="relative transform transition-all duration-500 hover:scale-105">
       <img 
         :src="product.image ? product.image : '//placehold.jp/a9a9a9/ffffff/300x200.png?text=No Image' " 
@@ -43,6 +43,6 @@ defineProps({
           </div>
         </div>
       </a>
-    </div>  
+    </div>
   </div>
 </template>

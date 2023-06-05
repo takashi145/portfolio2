@@ -3,9 +3,9 @@ import ToggleDarkMode from './components/ToggleDarkMode.vue';
 import ProductCard from './components/ProductCard.vue';
 import ScrollToTopButton from './components/ScrollToTopButton.vue';
 //import Footer from './components/Footer.vue';
-import SkillCard from './components/SkillCard.vue';
+// import SkillCard from './components/SkillCard.vue';
 import products from './data/products.json';
-import skills from './data/skills.json';
+// import skills from './data/skills.json';
 import { onBeforeUnmount, onMounted, ref } from 'vue';
 
 const isInViewportSkill = ref(false); // idが#skillの位置にいるか
@@ -50,7 +50,7 @@ onBeforeUnmount(() => {
       </div>
 
       <!-- ポートフォリオのヘッダー -->
-      <div class="mb-8 mx-auto max-w-screen-xl text-center">
+      <div class="mb-6 pb-6 border-b border-gray-600 mx-auto max-w-screen-xl text-center">
         <h1 class="mb-8 text-4xl sm:text-5xl font-extrabold tracking-tight leading-none text-gray-900 lg:text-6xl dark:text-white">Welcome to my portfolio</h1>
 
         <div class="mb-5 flex justify-center">
@@ -68,7 +68,7 @@ onBeforeUnmount(() => {
       </div>
 
       <!-- スキルと制作物のリンク -->
-      <div class="w-full sticky top-0 bg-gray-100 dark:bg-slate-800 py-3 mb-8 z-40 border-b border-gray-300 dark:border-gray-600">
+      <!-- <div class="w-full sticky top-0 bg-gray-100 dark:bg-slate-800 py-3 mb-8 z-40 border-b border-gray-300 dark:border-gray-600">
         <ul class="sm:text-lg flex items-center justify-center space-x-6 text-gray-600 dark:text-white">
           <li>
             <a href="#skill" :class="{ 'text-blue-500': isInViewportSkill }" class="underline z-50">スキル</a>
@@ -77,12 +77,12 @@ onBeforeUnmount(() => {
             <a href="#product" :class="{ 'text-blue-500': isInViewportProduct }" class="underline z-50">制作物</a>
           </li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- コンテンツエリア -->
       <div class="space-y-14">
         <!-- スキル一覧 -->
-        <div id="skill" class="text-center mx-6 lg:mx-24">
+        <!-- <div id="skill" class="text-center mx-6 lg:mx-24">
           <h2 class="underline flex items-center justify-center text-2xl font-semibold text-gray-800 mb-8 dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 mr-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
@@ -96,16 +96,28 @@ onBeforeUnmount(() => {
               :skill="skill" 
             />
           </div>
-        </div>
+        </div> -->
 
         <!-- 公開している制作物一覧 -->
         <div id="product" class="min-h-screen lg:mx-24 px-12 pt-3 pb-12">
-          <h2 class="flex underline items-center justify-center text-2xl font-semibold text-gray-800 mb-8 dark:text-white">
+          <h2 class="flex underline items-center justify-center text-2xl font-semibold text-gray-800 mb-5 dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
             </svg>
             制作物
           </h2>
+
+          <!-- test account -->
+          <div class="border border-gray-300 dark:border-gray-200 p-3 mb-8 text-gray-800 dark:text-gray-300">
+            <h3 class="font-semibold underline text-lg mb-2">テストアカウント</h3>
+            <p class="text-sm mb-2">ログインが必要なサイトは以下の認証情報でもログインできます。</p>
+            <div class="pl-2 text-lg">
+              Email: <span class="underline">test@example.com</span> <br>
+              Password: <span class="underline">password123</span>
+            </div>
+          </div>
+          <!---->
+
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             <ProductCard 
               v-for="product in products" 
