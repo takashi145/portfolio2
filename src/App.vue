@@ -99,7 +99,7 @@ onBeforeUnmount(() => {
         </div> -->
 
         <!-- 公開している制作物一覧 -->
-        <div id="product" class="min-h-screen lg:mx-24 px-12 pt-3 pb-12">
+        <div id="product" class="min-h-screen lg:mx-24 px-6 sm:px-12 pt-3 pb-12">
           <h2 class="flex underline items-center justify-center text-2xl font-semibold text-gray-800 mb-5 dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
@@ -108,7 +108,7 @@ onBeforeUnmount(() => {
           </h2>
 
           <!-- test account -->
-          <div class="border border-gray-300 dark:border-gray-200 p-3 mb-8 text-gray-800 dark:text-gray-300">
+          <div class="border border-gray-300 dark:border-gray-200 p-3 mb-8 max-w-md mx-auto text-gray-800 dark:text-gray-300">
             <h3 class="font-semibold underline text-lg mb-2">テストアカウント</h3>
             <p class="text-sm mb-2">ログインが必要なサイトは以下の認証情報でもログインできます。</p>
             <div class="pl-2 text-lg">

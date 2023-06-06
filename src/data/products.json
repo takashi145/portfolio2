@@ -3,7 +3,7 @@
     "id": 1,
     "image": "images/sharer.PNG",
     "name": "Sharer",
-    "description": "気になった技術記事を共有するアプリです。\n 知識を共有することで、お互いのスキルアップに役立ちます。",
+    "description": "気になった技術記事のリンクを共有するアプリです。\n 知識を共有することで、お互いのスキルアップに役立ちます。",
     "url": "https://sharer.herokuapp.com/",
     "skills": [
       "Laravel", "Vue.js", "Tailwind CSS"
@@ -23,7 +23,7 @@
     "id": 3,
     "image": "images/glossary-app.PNG",
     "name": "GlossaryApp",
-    "description": "学校などで学んだ用語を管理アプリです。\n 試験前の用語の暗記などにおすすめです。",
+    "description": "学校などで学んだ用語を管理アプリです。 \n試験前の用語の暗記などにおすすめです。",
     "url": "https://glossaryapp.onrender.com/",
     "skills": [
       "Ruby on Rails", "Tailwind CSS"
@@ -53,7 +53,7 @@
     "id": 6,
     "image": "images/noutore.PNG",
     "name": "脳トレタイピング",
-    "description": "よく見る脳トレをタイピングゲーム風にしました。\n脳トレとしての効果があるかは分かりません。",
+    "description": "よく見る脳トレをタイピングゲーム風にしました。 \n脳トレとしての効果があるかは分かりません。",
     "url": "https://brain-training-typing-game.vercel.app/",
     "skills": [
       "Vue.js", "Tailwind CSS"
@@ -63,7 +63,7 @@
     "id": 7,
     "image": "images/webgl.PNG",
     "name": "宇宙空間",
-    "description": "three.jsで宇宙空を作成しました。",
+    "description": "three.jsという3Dコンテンツを作成できるライブラリを使用し、\n宇宙空間を作成しました。",
     "url": "https://takashi145.github.io/webGL-sample/",
     "skills": [
       "Javascript", "Three.js"
@@ -73,7 +73,7 @@
     "id": 9,
     "image": "images/portfolio.PNG",
     "name": "ポートフォリオ",
-    "description": "スキルと制作物を載せたシンプルなポートフォリオです。",
+    "description": "制作物を載せたシンプルなポートフォリオです。",
     "url": "https://takashi145-s-portfolio.vercel.app/",
     "skills": [
       "Vue.js", "Typescript"
