@@ -23,7 +23,7 @@
     "id": 3,
     "image": "images/glossary-app.PNG",
     "name": "GlossaryApp",
-    "description": "学校などで学んだ用語を管理アプリです。 \n試験前の用語の暗記などにおすすめです。",
+    "description": "Ruby on Railsを使ってみたかったので作りました。\n 学校などで学んだ用語を管理アプリです。 \n試験前の用語の暗記などにおすすめです。",
     "url": "https://glossaryapp.onrender.com/",
     "skills": [
       "Ruby on Rails", "Tailwind CSS"
@@ -43,7 +43,7 @@
     "id": 5,
     "image": "images/app-idea-generator.PNG",
     "name": "AppIdeaGenerator",
-    "description": "ChatGPTのAPIを使用して、\nキーワードからアプリのアイデアを5つ提案してくれるアプリです。",
+    "description": "ChatGPTのAPIを使用して、\nキーワードからアプリのアイデアを5つ提案してくれるアプリです。\n 正直微妙です。",
     "url": "https://app-idea-generator.vercel.app",
     "skills": [
       "Next.js","Typescript", "Tailwind CSS", "ChatGPT"
@@ -53,7 +53,7 @@
     "id": 6,
     "image": "images/noutore.PNG",
     "name": "脳トレタイピング",
-    "description": "よく見る脳トレをタイピングゲーム風にしました。 \n脳トレとしての効果があるかは分かりません。",
+    "description": "よく見る脳トレをタイピングゲーム風にしました。 \n脳トレとしての効果があるかは分かりません。\n 得点やランキングなど追加したい。",
     "url": "https://brain-training-typing-game.vercel.app/",
     "skills": [
       "Vue.js", "Tailwind CSS"
@@ -70,10 +70,20 @@
     ]
   },
   {
+    "id": 8,
+    "image": "images/interview-prep-app.PNG",
+    "name": "面接対策アプリ (開発途中)",
+    "description": "面接対策のために、想定質問と解答例を保存するアプリです。\n 面接練習モードとか作りたいです。",
+    "url": "https://interview-prep-v5te.onrender.com/",
+    "skills": [
+      "Laravel", "Tailwind CSS"
+    ]
+  },
+  {
     "id": 9,
     "image": "images/portfolio.PNG",
     "name": "ポートフォリオ",
-    "description": "制作物を載せたシンプルなポートフォリオです。",
+    "description": "このサイトです。制作物を載せたシンプルなポートフォリオです。",
     "url": "https://takashi145-s-portfolio.vercel.app/",
     "skills": [
       "Vue.js", "Typescript"

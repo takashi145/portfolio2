@@ -31,7 +31,7 @@ defineProps({
         class="absolute inset-0 cursor-pointer bg-black bg-opacity-80 flex flex-col items-center justify-center rounded-lg hover:ring-4 opacity-0 hover:opacity-100 transition-transform duration-500 ease-in-out overflow-y-auto"
       >
         <h2 class="hidden sm:block text-white text-center text-sm sm:text-xl lg:text-2xl font-semibold mb-3">{{ product.name }}</h2>
-        <p class="mt-6 mb-6 sm:mt-0 sm:mb-8 text-white text-center text-xs sm:text-md px-3" style="white-space: pre-wrap;">{{ product.description }}</p>
+        <p class="mt-6 mb-6 sm:mt-0 sm:mb-8 text-white text-center text-sm sm:text-md px-3" style="white-space: pre-wrap;">{{ product.description }}</p>
 
         <div class="">
           <div 
