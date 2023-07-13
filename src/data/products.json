@@ -81,6 +81,16 @@
   },
   {
     "id": 9,
+    "image": "images/selection-status.PNG",
+    "name": "選考状況管理アプリ(開発途中)",
+    "description": "選考状況を視覚化するアプリです。\n自分の進捗を具体的に把握でき、達成感を得ることができます。",
+    "url": "https://job-tracker-sigma.vercel.app/event",
+    "skills": [
+      "Next.js", "Typescript", "Tailwind CSS"
+    ]
+  },
+  {
+    "id": 10,
     "image": "images/portfolio.PNG",
     "name": "ポートフォリオ",
     "description": "このサイトです。制作物を載せたシンプルなポートフォリオです。",
