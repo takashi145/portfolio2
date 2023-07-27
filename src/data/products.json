@@ -71,26 +71,16 @@
   },
   {
     "id": 8,
-    "image": "images/interview-prep-app.PNG",
-    "name": "面接対策アプリ (開発途中)",
-    "description": "面接対策のために、想定質問と解答例を保存するアプリです。\n 面接練習モードとか作りたいです。",
-    "url": "https://interview-prep-v5te.onrender.com/",
-    "skills": [
-      "Laravel", "Tailwind CSS"
-    ]
-  },
-  {
-    "id": 9,
     "image": "images/selection-status.PNG",
-    "name": "JobTracker(開発途中)",
-    "description": "選考状況を視覚化するアプリです。\n自分の進捗を具体的に把握でき、達成感を得ることができます。",
-    "url": "https://job-tracker-sigma.vercel.app/event",
+    "name": "進捗管理アプリ",
+    "description": "進捗状況を視覚化するアプリです。\n自分の進捗を具体的に把握でき、達成感を得ることができます。",
+    "url": "https://progress-visualizer.vercel.app/",
     "skills": [
       "Next.js", "Typescript", "Tailwind CSS"
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "image": "images/portfolio.PNG",
     "name": "ポートフォリオ",
     "description": "このサイトです。制作物を載せたシンプルなポートフォリオです。",
