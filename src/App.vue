@@ -48,17 +48,6 @@ import products from './data/products.json';
             制作物
           </h2>
 
-          <!-- test account -->
-          <div class="border border-gray-300 dark:border-gray-200 p-3 mb-8 max-w-md mx-auto text-gray-800 dark:text-gray-300">
-            <h3 class="font-semibold underline text-lg mb-2">テストアカウント</h3>
-            <p class="text-sm mb-2">ログインが必要なサイトは以下の認証情報でもログインできます。</p>
-            <div class="pl-2 text-lg">
-              Email: <span class="underline">test@example.com</span> <br>
-              Password: <span class="underline">password123</span>
-            </div>
-          </div>
-          <!---->
-
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             <ProductCard 
               v-for="product in products" 
