@@ -72,9 +72,9 @@
   {
     "id": 8,
     "image": "images/selection-status.PNG",
-    "name": "進捗管理アプリ",
+    "name": "進捗ビジュ",
     "description": "進捗状況を視覚化するアプリです。\n自分の進捗を具体的に把握でき、達成感を得ることができます。",
-    "url": "https://progress-visualizer.vercel.app/",
+    "url": "https://sinchoku-biju.vercel.app/",
     "skills": [
       "Next.js", "Typescript", "Tailwind CSS"
     ]
